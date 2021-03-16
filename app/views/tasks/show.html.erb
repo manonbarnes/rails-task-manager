@@ -1,0 +1,5 @@
+<h1> <%= @task.title %> </h1>
+<h4> <%= @task.details %></h4>
+<% taskid = @task.id  %>
+<%= link_to "Edit this task", "#{taskid}/edit" %>
+
